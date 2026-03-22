@@ -5,34 +5,24 @@ import { MdArrowBack, MdArrowForward } from "react-icons/md";
 
 const projects = [
   {
-    title: "Solid Starters",
-    category: "Low-Code Platform",
-    tools: "Angular, Next.js, NestJS, MongoDB",
-    image: "/images/Solidx.png",
-  },
-  {
-    title: "Radix",
-    category: "E-Commerce",
-    tools: "Angular, Next.js, NestJS, CMS",
-    image: "/images/radix.png",
-  },
-  {
-    title: "Bond Cancellation",
-    category: "Import-Export Automation",
-    tools: "Angular, Next.js, NestJS, Workflows",
+    title: "Perfume Brand UI",
+    category: "UI/UX Design",
+    tools: "Figma, Visual Hierarchy, Typography",
     image: "/images/bond.png",
+    link: "https://www.figma.com/site/zfFq0HpUY30L9HrPptjGdf/Untitled?node-id=0-1&t=YBNiS82jmieUlA6b-1",
   },
   {
-    title: "Sapphire",
-    category: "CRM Platform",
-    tools: "AngularJS, NestJS, PostgreSQL",
+    title: "Minimalist Skincare",
+    category: "Website Design",
+    tools: "Adobe XD, Clean UI, Functional Design",
     image: "/images/sapphire.png",
+    link: "https://www.figma.com/design/nFnTVp0p1VYJ9x8bpNpFUh/Untitled?node-id=0-1&t=HLlo45dFdhT6bbke-1",
   },
   {
-    title: "Mpro",
-    category: "Insurance Platform",
-    tools: "React.js, Node.js, Microservices",
-    image: "/images/Maxlife.png",
+    title: "Student Management",
+    category: "Software Development",
+    tools: "Core Java, OOP, Console app",
+    image: "/images/radix.png",
   },
 ];
 
@@ -112,6 +102,26 @@ const Work = () => {
                           <span className="tools-label">Tools & Features</span>
                           <p>{project.tools}</p>
                         </div>
+                        {project.link && (
+                          <div style={{ marginTop: "1rem" }}>
+                            <a 
+                              href={project.link} 
+                              target="_blank" 
+                              rel="noreferrer" 
+                              className="project-link"
+                              style={{
+                                color: "var(--light, #fff)", 
+                                textDecoration: "none", 
+                                borderBottom: "1px solid currentColor",
+                                paddingBottom: "2px",
+                                fontWeight: 500
+                              }}
+                              data-cursor="disable"
+                            >
+                              View Project ↗
+                            </a>
+                          </div>
+                        )}
                       </div>
                     </div>
                     <div className="carousel-image-wrapper">

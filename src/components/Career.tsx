@@ -15,43 +15,40 @@ const Career = () => {
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Ikshan</h5>
+                <h4>Intern</h4>
+                <h5>Rajasthan Royals</h5>
               </div>
-              <h3>2020</h3>
+              <h3>PAST</h3>
             </div>
             <p>
-              Built 6+ complete applications using React.js. Integrated backend
-              authentication using Node.js & MongoDB. Created responsive UI/UX
-              and designed wireframes using Figma.
+              Designed layouts and visual assets for digital platforms.
+              Worked within professional design workflows and collaborative team environments.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Senior Full Stack Developer</h4>
-                <h5>Monocept (Max Life Insurance)</h5>
+                <h4>Data Intern</h4>
+                <h5>Upflre Company</h5>
               </div>
-              <h3>2021</h3>
+              <h3>RECENT</h3>
             </div>
             <p>
-              Led two development teams on Mpro, a large-scale insurance
-              operations platform. Developed multiple modules using React.js &
-              migrated critical functionalities to Node.js microservices.
+              Contributed to full-stack web development, handling responsive frontend UI and backend logic.
+              Collaborated with developers on real-world product features, APIs, and deployment workflows.
             </p>
           </div>
           <div className="career-info-box">
             <div className="career-info-in">
               <div className="career-role">
-                <h4>Full Stack Developer</h4>
-                <h5>Logic Loop</h5>
+                <h4>Hackathon Winner (3rd)</h4>
+                <h5>Smart India Hackathon (SIH), JIET</h5>
               </div>
-              <h3>NOW</h3>
+              <h3>2025</h3>
             </div>
             <p>
-              Building Solid, a proprietary low-code platform using Angular,
-              Next.js & NestJS. Delivering production-ready CMS-based projects
-              including e-commerce, CRM, and import-export automation systems.
+              Secured 3rd Position at Smart India Hackathon (SIH) in September 2025.
+              Recognized for innovative problem-solving and team collaboration during the hackathon.
             </p>
           </div>
         </div>
